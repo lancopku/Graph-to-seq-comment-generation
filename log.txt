@@ -1,0 +1,26 @@
+
+my model: 87.3 running
+1.word-level bert + gcn + copy --- done
+2.double bert + copy --- done
+
+baselines:  87.185
+1.seq2seq (original content) --- done
+2.seq2seq (title) --- done
+3.seq2seq (title+content) 87.22 done
+3.bow2seq (content bag of words)    --- done
+4.bow2seq (keywords)    --- done
+5.h_attention --87.150 (mask running)
+
+sport
+1.word-level bert + gcn + copy 87.9 done
+2.double bert + copy 87.185 done
+3.word-level bert + gnn + copy 87.9, 87.3
+4.word-level bert + copy 87.185, 87.3
+
+baselines:
+1. seq2seq (content) 87.3 done
+2. seq2seq (title) 87.3 done
+3. seq2seq (title+content)  87.54 running
+3. bow2seq 87.54 done
+4. keyword 87.9 done
+5. h_attention --87.185 (mask running)
